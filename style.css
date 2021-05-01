@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish');
+
+html, * {
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  color: #000;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  font-size: 18px;
+}
+
+body {
+  background: url("./assets/raehmchen.JPG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.box {
+  background-color: #fff;
+  opacity: 0.8;
+  padding: 5rem;
+}
+
+.invisible {
+    display: none;
+}
