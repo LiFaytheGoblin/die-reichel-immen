@@ -4,7 +4,7 @@ I use this function to decrypt my previously encrypted personal contact informat
 */
 String.prototype.rotX = function(){
     // The charset contains all characters I might need to encrypt plus a "-" as a 0. character (I won't need a "-")
-    charset="- abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,:@";
+    charset="- abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,:@-ß";
     // All characters of the left half of the charset get projected onto the right part of the charset and vice versa
     offset = charset.length / 2;
     result = ""
