@@ -12,7 +12,6 @@ String.prototype.rotX = function(){
         i = charset.indexOf(c);
         cNew = (i > offset) ? charset.charAt(i - offset) : charset.charAt(i + offset);
         result = result.concat(cNew);
-        console.log(i + "..." + cNew)
     }
     return result
 };
