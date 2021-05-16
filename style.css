@@ -20,7 +20,6 @@ body {
   background-size: cover;
   display: grid;
   justify-content: center;
-  align-content: center;
 }
 
 h1 {
@@ -43,6 +42,8 @@ footer {
   background-color: #fff;
   opacity: 0.8;
   padding: 5rem;
+  margin: 1rem;
+  max-width: 800px;
 }
 
 .invisible {
